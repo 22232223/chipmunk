@@ -1,8 +1,8 @@
 *{
-  color: pink;
+  color: rgba(245, 166, 185, 1);
 }
 body{
-  background-color: #3c3c3c;
+  background-color: #282c34;
 }
 a{
   text-decoration: none;
@@ -11,8 +11,8 @@ h1{
   font-size: 30px;
   text-align: left;
   border-bottom:1px solid gray;
-  margin:0px;
-  padding:20px;
+  margin: 0px;
+  padding: 20px;
 }
 ul{
   border-right: 1px solid gray;
