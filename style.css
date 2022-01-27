@@ -1,5 +1,5 @@
 *{
-  color:pink;
+  color: pink;
 }
 body{
   background-color: #3c3c3c;
@@ -14,35 +14,31 @@ h1{
   margin:0px;
   padding:20px;
 }
-ol{
+ul{
   border-right: 1px solid gray;
   width: 100px;
-  margin: 0px 10px;
-  margin-top: 15px;
+  margin: 10px;
   padding: 10px;
   text-align: left;
 }
 li{
-  margin: 10px 0px;
+  margin: 10px;
 }
-#grid ol{
-  padding-left:32px;
+#grid ul{
+  padding-left:30px;
 }
 #grid{
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 190px 1fr;
 }
 #grid #article{
-  padding-left:32px;
+  padding-left:29px;
   padding-top:10px;
 }
 @media(max-width:800px){
   #grid{
     display: block;
   }
-  ol{
-    border-right:none;
-  }
-  h1{
-    border-bottom:none;
+  ul{
+    border-right: none;
   }
