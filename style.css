@@ -39,6 +39,10 @@ li{
   #grid{
     display: block;
   }
+  #grid #article{
+    padding-left:14px;
+  }
   ul{
     border-right: none;
   }
+}
