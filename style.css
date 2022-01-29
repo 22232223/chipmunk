@@ -49,4 +49,7 @@ li{
   ul{
     border-right: none;
   }
+  h1{
+    border-bottom:1px solid rgba(245, 166, 185, 1);
+  }
 }
